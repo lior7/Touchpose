@@ -68,7 +68,8 @@
         self.layer.borderColor = [UIColor colorWithWhite:170.f / 255.f alpha:1.f].CGColor;
         self.layer.cornerRadius = kFingerRadius;
         self.layer.borderWidth = 1.f / [UIScreen mainScreen].scale;
-        self.layer.backgroundColor = [UIColor colorWithWhite:200.f / 255.f alpha:0.75f].CGColor;
+        self.layer.backgroundColor = [UIColor colorWithRed:100.f / 255.f green:81.f / 255.f
+                                                      blue:200 / 255.f alpha:0.75f].CGColor;//[UIColor colorWithWhite:200.f / 255.f alpha:0.75f].CGColor;
     }
     return self;
 }
